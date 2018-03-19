@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<title>MANGATERIA</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+.w3-bar-block .w3-bar-item {padding:20px}
+</style>
+<body>
+
+<!-- Sidebar (hidden by default) -->
+<nav class="w3-sidebar w3-bar-block w3-card w3-top w3-xlarge w3-animate-left" style="display:none;z-index:2;width:40%;min-width:300px" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()"
+  class="w3-bar-item w3-button">Close Side Tab</a>
+  <a href="#food" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+</nav>
+
+<!-- Top menu -->
+<div class="w3-top">
+  <div class="w3-white w3-xlarge" style="max-width:1200px;margin:auto">
+    <div class="w3-button w3-padding-16 w3-left" onclick="w3_open()">☰</div>
+    <div class="w3-right w3-padding-16">Mail</div>
+    <div class="w3-center w3-padding-16">MY WONDERLAND</div>
+  </div>
+</div>.
+  
+<!-- !PAGE CONTENT! -->
+<div class="w3-main w3-content w3-padding" style="max-width:1200px;margin-top:100px">
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+    <div class="w3-quarter">
+      <img src="https://res.cloudinary.com/hpiynhbhq/image/upload/v1520919054/glxn1vhasccukvcoxxbh.jpg" alt="CodeGeass" style="width:100%">
+      <h3>CODE GEASS</h3>
+      <p>One of the flagship that established the reign of Japanese animation. This anime will take you to heart-stopping mecha battles to heartbreaking scenes that will burn to your mind. Join our protagonist Lelouch Lamperouge and see how he rise in the era of darkness. Watch the anime version.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://myanimelist.cdn-dena.com/images/anime/4/75535.jpg" alt="PandoraHearts" style="width:100%">
+      <h3>Pandora Hearts</h3>
+      <p>One of the anime and manga that still haunts me until now. A dark-themed fairytale that will explore through mysteries, insanity, and betreyal. Join Oz Bezarius,who have been banished to the depths of the abbys,to search for the sin that cost him his life. He then meets Alice, a familiar who residing at the bottom of the abyys, that is searching for her memory. Will the truth save their sould or would it lead them to a tragedy. Read the Manga Version.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://www.bedetheque.com/media/Couvertures/Couv_220147.jpg" alt="DeadManWonderLand" style="width:100%">
+      <h3>Deadman Wonderland</h3>
+      <p>Also a dark themed anime and manga packed with action and gore. This manga also likes to play with your head with its many twist and turns. Ganta Igarashi have been accused of killing all of his classmates and was sent in to the prison. But this prison is not like any type of prision. Its a cruel world of survival that the prisoners have been under on. Watch him clear his name as he entanggles himself with the mystery of a girl named, Shiro.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://honeysanime.com/wp-content/uploads/2015/01/another-DVD-300x424.jpg" alt="Another" style="width:100%">
+      <h3>Another</h3>
+      <p>This anime will make you feel the chills or close your eyes in disgust. This is not suitable for people who cannot handle explicit death scenes. Wander to the mystery of Class 3-3 of Yomiyama North. This anime is the equivalent of final destination. Join Kouichi and Mei as they try to stop the deaths from happening.</p>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding w3-padding-16 w3-center">
+    <div class="w3-quarter">
+      <img src="https://i.pinimg.com/originals/76/b2/07/76b20724e04cc6fa2f418c5be912293f.jpg" alt="Zetsuzen No Tempest" style="width:100%">
+      <h3>Zetsuzen No Tempest</h3>
+      <p>Inspired by the works of William Shakespeare, especially his play The Tempest, Zetsuen no Tempest is a tragic tale that explores the balance of sanity and madness, sense and intelligence, and self-confidence and convictions. Join Yoshino and Mahiro as they try to survive and solve the mysteries in this deteriorating world</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://img1.ak.crunchyroll.com/i/spire4/678a58d26a711c162379022cf8636d071357755177_full.jpg" alt="AKB0048" style="width:100%">
+      <h3>AKB0048</h3>
+      <p> Your girls from the orginal real-life japanese idols have been transported to anime! AKB48 have been turned as AKB0048 as an anime. The setting goes into a world where entertainment are ban from different planets. Now new generation of idols who want to give happiness to people as their idol did. Always smiling and spreading love these girls will compete for the position of the center nova.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="https://myanimelist.cdn-dena.com/images/anime/3/67177l.jpg" alt="Your Lie in April" style="width:100%">
+      <h3>Your Lie In April</h3>
+      <p> A music themed anime that will explore to the bonds of friends and lovers. Arima haven't heard the sound of the piano since his mother died. Now Kaori enters his life with her vivid energy and beautiful smile. Can she bring Arima to play in the music that he loved again? This tear jerker of an anime will be sure of a worth it journey.</p>
+    </div>
+    <div class="w3-quarter">
+      <img src="http://img1.ak.crunchyroll.com/i/spire3/6930616e551edeb6b2e5ed84f393ec401487113107_full.jpg" alt="Gakuen Alice" style="width:100%">
+      <h3>Gakuen Alice</h3>
+      <p>Don't be fooled by its cute looking animation! Gakuen Alice is a certified tear-jerker of an anime that will affect your life. Mikan is a cute and energetic girl who will study in The School of Alices. The school is actually an elite Academy for gifted people with "Alices," an ability that is unique depending on the individual being. Watch her unfold the mysteries it hold and her connection with it even before she was born. Well to those who will read or watch this I can only wish the best for you.</p>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+  
+  <hr id="about">
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32 w3-center">  
+    <h3>About Me, The Potato</h3><br>
+    <img src="https://ideactivatemc.net/attachments/5110/" alt="Me" class="w3-image" style="display:block;margin:auto" width="800" height="533">
+    <div class="w3-padding-32">
+      <h4><b>Just your friendly Potato in the neigborhood</b></h4>
+      <h6><i>Elohim Essaim I implore you</i></h6>
+      <p> I've been entrusted to a task to build a website about my interest. Of course I though of many great things but anime will always be a part of my heart. Its been a while since I've last watch a read a decent regular one. So this page will be a guide to let others see the beauty and mystery my wonderland hold. Good luck to you who will be watching this and reading it. Adios!</p>
+    </div>
+  </div>
+  <hr>
+  
+  <!-- Footer -->
+  <footer class="w3-row-padding w3-padding-32">
+    <div class="w3-third">
+      <h3>Thankyou</h3>
+      <p> TI would like to express my gratitude to W3 school for this Amazing Templates</p>
+      <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+    </div>
+  
+    <div class="w3-third">
+      <h3>BLOG POSTS</h3>
+      <ul class="w3-ul w3-hoverable">
+        <li class="w3-padding-16">
+          <img src="/w3images/workshop.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">SUPER JUNIOR</span><br>
+          <span>Hally Kings</span>
+        </li>
+        <li class="w3-padding-16">
+          <img src="/w3images/gondol.jpg" class="w3-left w3-margin-right" style="width:50px">
+          <span class="w3-large">Kim Heechul</span><br>
+          <span>My husband kekeke</span>
+        </li> 
+      </ul>
+    </div>
+
+    <div class="w3-third w3-serif">
+      <h3>POPULAR TAGS</h3>
+      <p>
+        <span class="w3-tag w3-black w3-margin-bottom">You</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Are</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Gonna</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Eat</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">A</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Potato</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">No kidding</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Time</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Check</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">12:06</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">I</span> <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Want</span>
+        <span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">To</span><span class="w3-tag w3-dark-grey w3-small w3-margin-bottom">Sleep</span>
+      </p>
+    </div>
+  </footer>
+
+<!-- End page content -->
+</div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+}
+ 
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
